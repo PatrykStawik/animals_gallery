@@ -2,16 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { Gallery, Home } from './pages';
+import { Home } from './pages';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Home />
-  },
-  {
-    path: '/gallery',
-    element: <Gallery />
   }
 ]);
 
